@@ -1,0 +1,5 @@
+#!/bin/bash
+
+newVolume=$1
+
+pactl set-sink-volume @DEFAULT_SINK@ $newVolume
