@@ -6,20 +6,17 @@ COMMENT
 echo "installing dependencies for fennec-bar"
 
 sudo pacman -Syu stow quickshell ttf-meslo-nerd || exit 1 # System update and instalation quickshell, meslo font for icons, and stow for easy symlink creation
+defaultDir="~/.fennec-bar"
 
 projectDir=$(pwd)
 
-echo "changing ownership of project files" 
-
-sudo chown -R $USER:$USER $projectDir 
-
-cd
-
-mkdir .fennec-bar || exit 1
-
-echo "moving repository to ~/.fennec-bar"
-
-mv $projectDir .fennec-bar || exit 1 
+if [[ $projectDir != $defaultDir ]]; then
+	echo "moving $projectDir to $defaultDir"
+	cd
+	mkdir $defaultDir || exit 1
+	mv $projectDir $defaultDir; else
+	echo "The path is corect"
+fi
 
 if $( test -d ~/.config/quickshell ); then
 	echo "fond old quickshell config, moving to ~/.config/quickshell.backup"

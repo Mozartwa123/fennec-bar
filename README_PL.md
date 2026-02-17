@@ -94,7 +94,7 @@ Niestety nie ma jeszcze powiadomień - dlatego, że pasek był pisany na systemi
 
 Na razie - nie jest to zbyt konfigurowalne - to znaczy kod można edytować - qml jest raczej intuicyjny i w przypadku quickshella znajomość programowania w c++ pod qt nie jest wymagana - jest to prostsze niż dwm (dlatego, że nie trzeba tego kompilować), ale komentarzy za dużo nie ma, kod jest chaotyczny, brakuje też jednego pliku konfiguracyjnego do ustawienia kolorów - co przyda się, bo nie chcę się ograniczać do fioletu, który jest kolorem przewodnim dla GUI linexina. Będę nad tym pracował, jeśli chcesz pomóc oto lista innych rzeczy do zrobienia:
 
-## Bugi
+## Bugi 
 
 ![](trayBug.mp4) 
  

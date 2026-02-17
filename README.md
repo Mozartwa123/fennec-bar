@@ -12,8 +12,6 @@ Fennec-bar is a taskbar written from scratch in qt and quickshell framework. It 
 
 If only I knew how quickshell is time consuming (almost a week), surely I had used waybar for implementing fennec-bar. But the linux youtuber's propaganda (for example "do not use this, use that, because that is trendy") convinced me to go into quickshell, although the documentation is not very precise. On the other hand, quickshell has more possibilities for example pop-ups, animations and more options in programming logic, and more functions, I propablY do not know about
 
-
-
 ## Features
 
 What I implemented in one week? To be honest not much, but there are all features:
@@ -34,11 +32,11 @@ What I implemented in one week? To be honest not much, but there are all feature
 
 ## Bugs
 
+![](trayBug.mp4)
+
 There are some glitches on hyprland launching tray menu. On this moment there are no specific implementation of menu's logic, besides Quickshell display function. There are no similar problems with sound, and power popup, because I implemented it myself. I'll do the same with tray, because on this moment tray menu and pop-ups behaviour and look are not consistent.
 
 ON this moment there is no notification system, because the tray was implemented on system with KDE Plasma (of course it way linexin), which has own notification system. I would implement and test potential notification system on distro with no other DEs.
-
-
 
 ## To do
 
@@ -81,5 +79,3 @@ Fennec's wallpaper and icon in start menu are created by [linexin's](https://git
 Linexin: [GitHub - Petexy/Linexin: Arch-based distro for my usage](https://github.com/Petexy/Linexin)
 
 [Quickshell](https://quickshell.org/) and [Hyprland](https://hypr.land/)
-
-
